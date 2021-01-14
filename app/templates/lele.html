@@ -1,0 +1,10 @@
+{% extends 'base_template.html' %}
+
+{% block title %} Lele Usuarios - Tutorial FLASK {% endblock %}
+
+{% block content %}
+  <h3>Usuarios</h3>
+  {% for usuario in usuarios %}
+    <li><b>Nombre:</b> {{ usuario.nombre }}. <b>Email:</b> {{ usuario.email }}</li>
+  {% endfor %}
+{% endblock %}

@@ -1,0 +1,10 @@
+body {
+  background-color: beige;
+}
+
+.content {
+  font-weight: 900;
+  border-radius: 5px black !important;
+  background-color: rgb(230, 182, 182);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}

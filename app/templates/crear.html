@@ -1,0 +1,19 @@
+{% extends 'base_template.html' %}
+
+{% block title %} Crear Usuario - Tutorial FLASK {% endblock %}
+
+{% block content %}
+  <h3>Crear Usuario</h3>
+  <form method="post" action="">
+    <label for="npmbre">Nombre</label>
+    <input type="text" name="nombre" placeholder="Ingrese el nombre" id="nombre" required>
+
+    <label for="email">Email</label>
+    <input type="email" name="email" placeholder="Ingrese el email" id="email" required>
+
+    <label for="rol">Rol</label>
+    <input type="text" name="rol" placeholder="Ingrese el rol" id="rol" required>
+
+    <input type="submit" value="Crear">
+  </form>
+{% endblock %}
